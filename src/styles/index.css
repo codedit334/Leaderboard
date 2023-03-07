@@ -129,6 +129,7 @@ form {
 .refresh {
   background-color: #67434f;
   color: wheat;
+  cursor: pointer;
 }
 
 .form-submit:hover,
