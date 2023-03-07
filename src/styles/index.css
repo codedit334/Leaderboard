@@ -7,3 +7,84 @@
   font-family: 'COCOGOOSE', sans-serif;
   font-weight: 400;
 }
+
+main {
+  width: 100vw;
+  height: 80vh;
+  display: grid;
+  place-items: center;
+}
+
+h1 {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  font-size: 250%;
+}
+
+.scores-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.scores-wrapper {
+  display: flex;
+  gap: 140px;
+}
+
+.scores-display-title {
+  display: flex;
+  gap: 20px;
+}
+
+.refresh {
+  background-color: transparent;
+  padding: 0 10px;
+  border: 3.5px solid black;
+}
+
+.scores-display-content {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20px;
+  width: 89%;
+  border: 3.5px solid black;
+  min-height: 100px;
+}
+
+.scores-display-list li {
+  padding: 5px 0 5px 8px;
+  list-style: none;
+}
+
+.scores-display-list li:nth-of-type(even) {
+  background-color: rgb(235, 235, 235);
+}
+
+form {
+  position: relative;
+  top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#form-name,
+#form-score {
+  border: 3.5px solid black;
+  padding: 4px;
+  margin-bottom: 5px;
+}
+
+#form-name:focus,
+#form-score:focus {
+  outline: none;
+}
+
+.form-submit {
+  width: 80px;
+  background-color: transparent;
+  border: 3.5px solid black;
+  padding: 4px 0;
+  align-self: flex-end !important;
+}
