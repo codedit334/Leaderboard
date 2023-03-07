@@ -154,12 +154,6 @@ To check for js errors run:
   npx eslint .
 ```
 
-- ### Jest Tests
-
-```sh
-  npm test
-```
-
 
 <!-- AUTHORS -->
 
