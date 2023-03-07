@@ -20,8 +20,8 @@ const sendData = async () => {
 
     document.querySelector('.form-add-msg').style.display = 'none';
     document.querySelector('.form-add-msg').style.display = 'block';
-    formName = '';
-    formScore = '';
+    document.querySelector('#form-name').value = '';
+    document.querySelector('#form-score').value = '';
   }
 };
 

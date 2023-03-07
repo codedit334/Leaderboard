@@ -10,7 +10,7 @@
 
 main {
   width: 100vw;
-  height: 120vh;
+  height: 150vh;
   display: grid;
   place-items: center;
 }
@@ -29,7 +29,6 @@ h1 {
 .scores-section {
   display: flex;
   flex-direction: column;
-  
 }
 
 .scores-wrapper {
