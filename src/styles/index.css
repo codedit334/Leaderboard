@@ -10,7 +10,7 @@
 
 main {
   width: 100vw;
-  height: 100vh;
+  height: 120vh;
   display: grid;
   place-items: center;
 }
@@ -29,6 +29,7 @@ h1 {
 .scores-section {
   display: flex;
   flex-direction: column;
+  
 }
 
 .scores-wrapper {
@@ -39,6 +40,8 @@ h1 {
   padding: 40px;
   padding-bottom: 70px;
   border-radius: 20px;
+  position: relative;
+  top: 5vh;
 }
 
 .scores-display-title {
