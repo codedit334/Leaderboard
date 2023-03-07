@@ -213,6 +213,10 @@ I would like to thank Microverse for offering me this opportunity to learn, and 
 
   - Modular programming usually makes your code easier to read because it means separating it into functions that each only deal with one aspect of the overall functionality.
 
+-Why use a Bundler?
+
+  - It keeps track of which files depend on which other files and ensures they are loaded in the right order. This helps make your code more modular and easier to maintain.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
