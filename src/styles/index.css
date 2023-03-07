@@ -28,7 +28,7 @@ h1 {
 }
 
 .scores-wrapper {
-  display: flex ;
+  display: flex;
   gap: 140px;
 }
 
@@ -40,7 +40,7 @@ h1 {
 .refresh {
   background-color: transparent;
   padding: 0 10px;
-  border: 3.5px solid black
+  border: 3.5px solid black;
 }
 
 .scores-display-content {
@@ -64,7 +64,7 @@ h1 {
 
 form {
   position: relative;
-  top:20px;
+  top: 20px;
   display: flex;
   flex-direction: column;
 }
@@ -81,7 +81,7 @@ form {
   outline: none;
 }
 
-.form-submit{
+.form-submit {
   width: 80px;
   background-color: transparent;
   border: 3.5px solid black;
