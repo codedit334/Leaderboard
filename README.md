@@ -169,7 +169,8 @@ To check for js errors run:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Hit the API.
+- Styling.
+- Deployement.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
