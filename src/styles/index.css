@@ -87,4 +87,9 @@ form {
   border: 3.5px solid black;
   padding: 4px 0;
   align-self: flex-end !important;
+  margin-bottom: 10px;
+}
+
+.form-add-msg {
+  display: none;
 }
