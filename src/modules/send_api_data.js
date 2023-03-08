@@ -1,6 +1,6 @@
 const sendData = async () => {
-  let formName = document.querySelector('#form-name').value;
-  let formScore = document.querySelector('#form-score').value;
+  const formName = document.querySelector('#form-name').value;
+  const formScore = document.querySelector('#form-score').value;
 
   if (formName.length > 0 && formScore.length > 0) {
     const myBody = {
@@ -33,4 +33,3 @@ const send = () => {
 };
 
 send();
-// export default send();

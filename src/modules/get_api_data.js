@@ -23,4 +23,3 @@ const get = () => {
   document.querySelector('.refresh').click();
 };
 get();
-// export default get;
