@@ -12,7 +12,7 @@ const userAction = async () => {
     },
   );
   const myJson = await response.json();
-  console.log(myJson);
+  return myJson;
 };
 
 userAction();
